@@ -1,5 +1,28 @@
+# Virtual environment
 venv/
+
+# Environment variables / secrets
 .env
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# VS Code
 .vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Local database / runtime data
+data/*.db
+data/*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
